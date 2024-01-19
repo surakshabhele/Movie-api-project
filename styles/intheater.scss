@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Josefin+Sans:wght@400;500&family=Nunito:wght@400;700&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&family=Roboto&family=Work+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Josefin+Sans:wght@400;500&family=Nunito:wght@400;700&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&family=Roboto&family=Titillium+Web:wght@600&family=Work+Sans:wght@400;500&display=swap");
+.intheater-page {
+  // display: flex;
+  // padding: 0px 20px 0px 20px;
+  .nowmovie {
+    display: flex;
+    justify-content: center;
+    padding-left: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    align-items: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+  }
+  // .nowmovie {
+  //   animation-name: grow;
+  //   animation-duration: 2s;
+  //   animation-iteration-count: infinite;
+  //   animation-timing-function: linear;
+  // }
+  // @keyframes grow {
+  //   0% {
+  //     transform: scaleX(1.1);
+  //   }
+  //   50% {
+  //     transform: scaleX(1.1);
+  //     // background: darkturquoise;
+  //   }
+  // }
+  .swiper {
+    background-color: black;
+    max-width: 1400px;
+    .swiper-slide {
+      background-color: black;
+      .title {
+        padding-left: 20px;
+        padding-top: 5px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 22px;
+        color: white;
+        background-color: black;
+      }
+      .releasestate {
+        padding-left: 20px;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 22px;
+        color: white;
+        background-color: black;
+      }
+      .image {
+        padding: 10px;
+      }
+      .trailer-btn{
+        // border: none;
+        margin-left: 20px;
+        border-radius: 5px;
+        &:hover{
+          background-color: lightslategray;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+@import "./app.scss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Josefin+Sans:wght@400;500&family=Nunito:wght@400;700&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&family=Roboto&family=Work+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Josefin+Sans:wght@400;500&family=Nunito:wght@400;700&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Raleway:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&family=Roboto&family=Titillium+Web:wght@600&family=Work+Sans:wght@400;500&display=swap");
+
+.movie-web-page {
+  background-color: gray;
+  .header {
+    padding: 5px 0px 35px 0px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .movie-header {
+      display: flex;
+      .menu {
+        padding-left: 40px;
+        color: pink;
+      }
+      .menu {
+        animation: move;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes move {
+        from {
+          transform: translateX(0px);
+        }
+        to {
+          transform: translateX(200px);
+        }
+      }
+      .menu {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .search-bar {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+
+      .search {
+        border: none;
+        min-width: 250px;
+        max-width: 500px;
+        height: 40px;
+      }
+      .reset {
+        border: none;
+        max-width: 35px;
+        height: 40px;
+      }
+      .search-item {
+        border: none;
+        max-width: 55px;
+        height: 40px;
+      }
+    }
+    .watchlist {
+      color: white;
+    }
+    .sign-in {
+      color: white;
+    }
+    .lag {
+      color: white;
+    }
+  }
+  .web-contents {
+    .trending-page-box {
+      display: flex;
+      .trending {
+        margin: 40px;
+      }
+      .time-window {
+        .day {
+          margin-top: 80px;
+          margin-left: 40px;
+          margin-right: 40px;
+        }
+      }
+      .media-type {
+        display: flex;
+        justify-content: space-between;
+        .all {
+          margin: 40px;
+        }
+      }
+    }
+  }
+  .footer {
+    min-height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    .footer-name {
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      cursor: pointer;
+    }
+    .copyright-text {
+      cursor: pointer;
+      color: white;
+      padding-top: 20px;
+    }
+  }
+}

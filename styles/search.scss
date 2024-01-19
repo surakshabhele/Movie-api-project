@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Nunito:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@300;400;700&family=Work+Sans:wght@400;500&display=swap");
+
+.search-page {
+  .contain-box {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: baseline;
+    .contain {
+      display: flex;
+      margin: 20px;
+      background-color: black;
+      .img {
+      }
+      .left-detail {
+        padding-left: 20px;
+        .title {
+            padding: 10px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+          color: white;
+        }
+        .para {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 156.52%;
+          max-width: 600px;
+          color: white;
+        }
+        .details {
+            padding: 10px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 151.02%;
+          color: white;
+        }
+      }
+    }
+  }
+}

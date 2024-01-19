@@ -1,0 +1,31 @@
+{
+  "name": "suraksha-movies-projects",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.12.1",
+    "@mui/system": "^5.12.1",
+    "css": "^3.0.0",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
+    "next": "13.0.5",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.2",
+    "react-select": "^5.7.0",
+    "router": "^1.3.7",
+    "sass": "^1.56.1",
+    "scss": "^0.2.4",
+    "select": "^1.1.2",
+    "swiper": "^8.4.5"
+  }
+}
